@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  background-color: hsl(217, 28%, 15%);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  justify-content: space-around;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style: none;
+  width: 400px;
+  height: 80px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-links {
+  color: white;
+  text-decoration: none;
+}
