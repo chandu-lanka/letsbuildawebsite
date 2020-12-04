@@ -9,6 +9,10 @@ body {
   background-color: hsl(217, 28%, 15%);
 }
 
+.logo {
+  width: 120px;
+}
+
 .navbar {
   display: flex;
   align-items: center;
@@ -29,4 +33,110 @@ body {
 .nav-links {
   color: white;
   text-decoration: none;
+}
+
+.imgintrocontainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.intro-description {
+  background-image: url(../images/bg-curvy-desktop.svg);
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.h1 {
+  color: white;
+  font-size: 30px;
+}
+
+.p {
+  font-size: 18px;
+  color: white;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.button {
+  width: 200px;
+  height: 45px;
+  border-radius: 50px;
+  background: linear-gradient(45deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  color: white;
+  font-size: 17px;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.attributesoffylo {
+  background-color: #181f2b;
+  height: 130vh;
+}
+
+.row-1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.computer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 400px;
+}
+
+.security {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 400px;
+}
+
+.h2 {
+  color: white;
+}
+
+.small_desc {
+  color: white;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.people {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 400px;
+}
+
+.files {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 400px;
+}
+
+.row-2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
